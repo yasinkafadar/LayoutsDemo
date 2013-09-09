@@ -28,4 +28,10 @@
         android:layout_height="wrap_content"
         android:text="Gravity Example" />
 
+    <Button
+        android:id="@+id/btn_show_complex_example"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Complex Example" />
+
 </LinearLayout>

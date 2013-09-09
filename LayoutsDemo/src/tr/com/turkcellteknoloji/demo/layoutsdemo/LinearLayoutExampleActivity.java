@@ -23,6 +23,9 @@ public class LinearLayoutExampleActivity extends Activity {
 		case LinearLayoutDemoActivity.GRAVITY_EXAMPLE:
 			setContentView(R.layout.activity_linear_layout_gravity);
 			break;
+		case LinearLayoutDemoActivity.COMPLEX_EXAMPLE:
+			setContentView(R.layout.activity_linear_layout_complex);
+			break;
 
 		default:
 			break;

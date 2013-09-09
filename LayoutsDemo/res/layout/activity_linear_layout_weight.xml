@@ -7,7 +7,7 @@
 
     <Button
         android:id="@+id/btn_blue"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="match_parent"
         android:background="@color/blue_color"
         android:layout_weight="0.5"
@@ -16,7 +16,7 @@
 
     <Button
         android:id="@+id/btn_green"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="match_parent"
         android:background="@color/green_color"
         android:layout_weight="0.5"

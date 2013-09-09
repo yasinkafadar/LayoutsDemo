@@ -13,6 +13,7 @@ public class LinearLayoutDemoActivity extends Activity {
 	public static final int VERTICAL_EXAMPLE = 1;
 	public static final int WEIGHT_EXAMPLE = 2;
 	public static final int GRAVITY_EXAMPLE = 3;
+	public static final int COMPLEX_EXAMPLE = 4;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -46,10 +47,18 @@ public class LinearLayoutDemoActivity extends Activity {
 				showExample(GRAVITY_EXAMPLE);
 			}
 		});
+
+		Button showComplexExample = (Button) findViewById(R.id.btn_show_complex_example);
+		showComplexExample.setOnClickListener(new OnClickListener() {
+			public void onClick(View v) {
+				showExample(COMPLEX_EXAMPLE);
+			}
+		});
 	}
 
 	private void showExample(int exampleId) {
-		Intent intent = new Intent(LinearLayoutDemoActivity.this, LinearLayoutExampleActivity.class);
+		Intent intent = new Intent(LinearLayoutDemoActivity.this,
+				LinearLayoutExampleActivity.class);
 		intent.putExtra("exampleId", exampleId);
 		startActivity(intent);
 	}
