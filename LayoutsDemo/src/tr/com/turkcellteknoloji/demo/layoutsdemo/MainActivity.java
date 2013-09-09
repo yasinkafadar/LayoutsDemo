@@ -1,5 +1,6 @@
 package tr.com.turkcellteknoloji.demo.layoutsdemo;
 
+import android.R;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -13,6 +14,7 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		
 		
 		Button showLinearLayoutDemo = (Button) (findViewById(R.id.btn_show_linear_layouts));
 		showLinearLayoutDemo.setOnClickListener(new OnClickListener() {
