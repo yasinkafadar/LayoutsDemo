@@ -22,14 +22,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        
-        <activity
-            android:name="tr.com.turkcellteknoloji.demo.layoutsdemo.LinearLayoutDemoActivity" >
+        <activity android:name="tr.com.turkcellteknoloji.demo.layoutsdemo.LinearLayoutDemoActivity" >
         </activity>
-        <activity
-            android:name="tr.com.turkcellteknoloji.demo.layoutsdemo.LinearLayoutExampleActivity" >
+        <activity android:name="tr.com.turkcellteknoloji.demo.layoutsdemo.LinearLayoutExampleActivity" >
         </activity>
-        
+        <activity android:name="tr.com.turkcellteknoloji.demo.layoutsdemo.RelativeLayoutDemoActivity" >
+        </activity>
+        <activity android:name="tr.com.turkcellteknoloji.demo.layoutsdemo.RelativeLayoutExampleActivity" >
+        </activity>
     </application>
 
 </manifest>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/btn_show_position1_example"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Positions by Given ID 1" />
+
+    <Button
+        android:id="@+id/btn_show_position2_example"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_show_position1_example"
+        android:text="Positions by Given ID 2" />
+
+    <Button
+        android:id="@+id/btn_show_parent_example"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_show_position2_example"
+        android:text="Positions by Parent" />
+
+    <Button
+        android:id="@+id/btn_show_complex_example"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_show_parent_example"
+        android:text="Complex Example" />
+
+</RelativeLayout>

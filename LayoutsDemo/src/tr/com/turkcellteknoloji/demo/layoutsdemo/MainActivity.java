@@ -14,11 +14,17 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		
-		
 		Button showLinearLayoutDemo = (Button) (findViewById(R.id.btn_show_linear_layouts));
 		showLinearLayoutDemo.setOnClickListener(new OnClickListener() {
 			public void onClick(View v) {
 				startActivity(new Intent(MainActivity.this, LinearLayoutDemoActivity.class));
+			}
+		});
+		
+		Button showRelativeLayoutDemo = (Button) (findViewById(R.id.btn_show_relative_layouts));
+		showRelativeLayoutDemo.setOnClickListener(new OnClickListener() {
+			public void onClick(View v) {
+				startActivity(new Intent(MainActivity.this, RelativeLayoutDemoActivity.class));
 			}
 		});
 	}

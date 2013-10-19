@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/btn_blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/blue_color"
+        android:text="Blue Button"
+        android:textColor="@color/white_color" />
+
+    <Button
+        android:id="@+id/btn_purple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_blue"
+        android:background="@color/purple_color"
+        android:text="Purple"
+        android:textColor="@color/white_color" />
+
+    <Button
+        android:id="@+id/btn_green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_blue"
+        android:layout_toRightOf="@+id/btn_purple"
+        android:background="@color/green_color"
+        android:text="Green Button"
+        android:textColor="@color/white_color" />
+
+    <Button
+        android:id="@+id/btn_orange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_green"
+        android:layout_toRightOf="@+id/btn_green"
+        android:background="@color/orange_color"
+        android:text="Orange"
+        android:textColor="@color/white_color" />
+
+</RelativeLayout>
